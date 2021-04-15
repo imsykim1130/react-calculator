@@ -1,0 +1,25 @@
+.Button {
+  background-color: #333;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Button.zero {
+  width: 130px;
+  border-radius: 120px;
+  grid-column: span 2;
+}
+
+.Button.function {
+  color: black;
+  background-color: #a5a5a5;
+}
+
+.Button.operator {
+  background-color: #f1a33c;
+}
